@@ -5,8 +5,8 @@ adb install ./com.bigsing.changer_v23_25075d.apk
 adb install ./XposedInstaller_3.1.5-Magisk.apk
 
 apt install git -y
-git clone https://github.com/it-toppp/a-box.git
-cp -R ./a-box/system /var/snap/anbox/common/rootfs-overlay
+git clone https://github.com/rdv-pro/android.git
+cp -R ./android/system /var/snap/anbox/common/rootfs-overlay
 sudo chown -R 100000:100000 /var/snap/anbox/common/rootfs-overlay
 sudo chmod -R +x /var/snap/anbox/common/rootfs-overlay/system/bin
 sudo chmod -R +x /var/snap/anbox/common/rootfs-overlay/system/xbin
