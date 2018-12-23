@@ -1,8 +1,8 @@
 #!/bin/bash -v
 wget https://dl-xda.xposed.info/modules/com.bigsing.changer_v23_25075d.apk
 wget https://github.com/it-toppp/a-box/raw/master/XposedInstaller_3.1.5-Magisk.apk
-adb install ./com.bigsing.changer_v23_25075d.apk
-adb install ./XposedInstaller_3.1.5-Magisk.apk
+#adb install ./com.bigsing.changer_v23_25075d.apk
+#adb install ./XposedInstaller_3.1.5-Magisk.apk
 
 apt install git -y
 git clone https://github.com/rdv-pro/android.git
